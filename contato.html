@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Espaço para dúvidas, sugestões e relatos sobre o Chevrolet Opala.">
+    <title>Contato | Opala: história e paixão sobre rodas</title>
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+        <p>Compartilhe sua paixão pelo Chevrolet Opala.</p>
+
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html" aria-current="page">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Deixe sua mensagem</h2>
+
+            <p>
+                Você tem uma história com um Opala?
+                Gostaria de sugerir um conteúdo sobre restauração
+                ou preparação? Preencha os campos abaixo.
+            </p>
+
+            <p>
+                <strong>Todos os campos são obrigatórios.</strong>
+                Este formulário é demonstrativo e não envia mensagens.
+            </p>
+
+            <form action="contato.html" method="get">
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        autocomplete="name"
+                        placeholder="Digite seu nome"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        placeholder="voce@exemplo.com"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="assunto">Assunto:</label><br>
+                    <input
+                        type="text"
+                        id="assunto"
+                        name="assunto"
+                        placeholder="Informe o assunto da mensagem"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="categoria">Categoria:</label><br>
+                    <select id="categoria" name="categoria" required>
+                        <option value="" disabled selected>
+                            Selecione uma categoria
+                        </option>
+                        <option value="historia">História do Opala</option>
+                        <option value="restauracao">Restauração</option>
+                        <option value="aspirado">Preparação aspirada</option>
+                        <option value="turbo">Preparação turbo</option>
+                        <option value="sugestao">Sugestão de conteúdo</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="comentario">Comentário:</label><br>
+                    <textarea
+                        id="comentario"
+                        name="comentario"
+                        rows="6"
+                        cols="40"
+                        placeholder="Escreva sua mensagem"
+                        required
+                    ></textarea>
+                </p>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Uma comunidade movida pela paixão</h2>
+
+            <p>
+                Cada Opala carrega uma história. Seja um exemplar
+                original, restaurado ou preparado, o que une seus
+                admiradores é o <em>carinho pelo modelo</em>.
+            </p>
+
+            <p>
+                <a href="sobre.html">
+                    Saiba mais sobre a história e as preparações do Opala.
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Matheus Polidelli — Projeto acadêmico de HTML.</p>
+       
+    </footer>
+</body>
+</html>
